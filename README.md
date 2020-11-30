@@ -64,8 +64,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 
 ```bash
 $ go get -u github.com/Masterminds/glide
-$ git clone https://github.com/bitspill/flod $GOPATH/src/github.com/bitspill/flod
-$ cd $GOPATH/src/github.com/bitspill/flod
+$ git clone https://github.com/GuoxiW/flod /home/guoxi/go/src/github.com/bitspill/flod
+$ cd /home/guoxi/go/src/github.com/bitspill/flod
 $ glide install
 $ go install . ./cmd/...
 ```
